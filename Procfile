@@ -1,1 +1,2 @@
-web: gunicorn mb_project.wsgi
+web: pipenv run gunicorn mb_project.wsgi
+
