@@ -5,8 +5,9 @@ name = "pypi"
 
 [packages]
 django = "*"
-waitress = "*"
 whitenoise = "*"
+gunicorn = "*"
+waitress = "*"
 
 [dev-packages]
 
